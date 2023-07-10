@@ -85,9 +85,11 @@ body {
 /**Another Plan**/
 .important-banner {
     border-radius: 20px;
-    padding: 40px;
+    padding: 60px;
     margin: 300px 300px 150px 300px;
     background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .notice {
@@ -95,9 +97,38 @@ body {
     font-size: 40px;
     font-weight: 700;
 }
-.second-btn{
+
+.second-btn {
     border-radius: 5px;
     background: #FFF;
     padding: 10px 10px;
     border-radius: 5px;
+}
+
+/**footer**/
+footer {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+.footer-header {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+.subscribe{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.footer-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
 }
