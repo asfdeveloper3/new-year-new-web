@@ -9,9 +9,15 @@ body {
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.content{
+    width: 50%;
 }
 .moto {
-    width: 525px;
     color: #151414;
     font-size: 65px;
     font-weight: 700;
@@ -29,4 +35,21 @@ body {
     box-shadow: 5px 5px 5px rgb(131, 104, 131);
     background: #F15B22;
     font-size: 25px;
+}
+/**main section desgin**/
+.banner{
+    padding: 300px 0 0 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-text{
+    padding: 0 6rem;
+}
+.theme{
+    width: 288px;
+    flex-direction: column;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
 }
