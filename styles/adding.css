@@ -36,7 +36,7 @@ body {
     border-radius: 5px;
     box-shadow: 5px 5px 5px rgb(131, 104, 131);
     background: #F15B22;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /**main section desgin**/
@@ -59,6 +59,7 @@ body {
     font-weight: 700;
 }
 
+/**My Plan**/
 .plan-title {
     padding: 60px;
     color: #151414;
@@ -66,11 +67,37 @@ body {
     font-weight: 700;
     text-align: center;
 }
-.skill-container{
+
+.skill-container {
     padding: 0 200px;
     display: flex;
     justify-content: space-around;
 }
-.to-do{
+
+.skills-img {
+    width: 60px;
+}
+
+.to-do {
     text-align: center;
+}
+
+/**Another Plan**/
+.important-banner {
+    border-radius: 20px;
+    padding: 40px;
+    margin: 300px 300px 150px 300px;
+    background-image: url('../images/watch.png');
+}
+
+.notice {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+.second-btn{
+    border-radius: 5px;
+    background: #FFF;
+    padding: 10px 10px;
+    border-radius: 5px;
 }
