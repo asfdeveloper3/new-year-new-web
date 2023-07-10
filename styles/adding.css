@@ -3,7 +3,7 @@ body {
 }
 
 /**header desgin**/
-.header-section{
+.header-section {
     padding: 216px;
     text-align: right;
     background-image: url('../images/banner/banner1.png');
@@ -14,9 +14,11 @@ body {
     justify-content: flex-end;
     align-items: center;
 }
-.content{
+
+.content {
     width: 50%;
 }
+
 .moto {
     color: #151414;
     font-size: 65px;
@@ -36,20 +38,39 @@ body {
     background: #F15B22;
     font-size: 25px;
 }
+
 /**main section desgin**/
-.banner{
+.banner {
     padding: 300px 0 0 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.banner-text{
+
+.banner-text {
     padding: 0 6rem;
 }
-.theme{
+
+.theme {
     width: 288px;
     flex-direction: column;
     color: #151414;
     font-size: 40px;
     font-weight: 700;
+}
+
+.plan-title {
+    padding: 60px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.skill-container{
+    padding: 0 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.to-do{
+    text-align: center;
 }
